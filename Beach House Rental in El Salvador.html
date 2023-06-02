@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Beach House Rental in El Salvador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #000102;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #title {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        #image-gallery {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #description {
+            margin-bottom: 20px;
+        }
+
+        #features {
+            margin-bottom: 20px;
+        }
+
+        #booking {
+            text-align: center;
+        }
+
+        #contact {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="title">Beach House Rental in El Salvador</h1>
+    </div>
+
+    <!-- Google Translate Widget Code -->
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'es,fr',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- End of Google Translate Widget Code -->
+
+    <div id="content">
+        <div id="image-gallery">
+            <img src="file:///C:/Users/allsc/Downloads/download.jpg" alt="Beach House 1">
+            <img src="file:///C:/Users/allsc/Downloads/download.jpg" alt="Beach House 2">
+            <img src="file:///C:/Users/allsc/Downloads/download.jpg" alt="Beach House 3">
+        </div>
+
+        <div id="description">
+            <h2>Description</h2>
+            <p>Bienvenido a nuestra hermosa casa de playa en El Salvador. Esta espaciosa propiedad se encuentra
+                directamente en la playa, ofreciendo impresionantes vistas al océano y acceso directo a la arena y las
+                olas. La casa cuenta con cómodas habitaciones, una cocina totalmente equipada y un amplio patio al aire
+                libre donde puedes relajarte y disfrutar de las impresionantes puestas de sol. Ya sea que estés buscando
+                un retiro tranquilo o unas emocionantes vacaciones en la playa, nuestra casa de playa es la elección
+                perfecta.</p>
+        </div>
+
+        <div id="features">
+            <h2>Características</h2>
+            <ul>
+                <li>Acceso directo a la playa</li>
+                <li>Vistas al océano</li>
+                <li>Totalmente amueblada</li>
+                <li>Habitaciones espaciosas</li>
+                <li>Patio al aire libre</li>
+                <li>Wi-Fi gratuito</li>
+                <li>Estacionamiento disponible</li>
+            </ul>
+        </div>
+
+        <div id="booking">
+            <h2>Reservas</h2>
+            <p>Para reservar su estadía en nuestra casa de playa, por favor complete el siguiente formulario:</p>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="check-in">Fecha de llegada:</label>
+                <input type="date" id="check-in" name="check-in" required><br><br>
+
+                <label for="check-out">Fecha de salida:</label>
+                <input type="date" id="check-out" name="check-out" required><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <div id="contact">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos:</p>
+            <p>Teléfono: 123-456-7890</p>
+            <p>Email: info@example.com</p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // This function is optional and can be used to trigger the translation manually
+        function triggerTranslation() {
+            var translateButton = document.querySelector('.goog-te-combo');
+            translateButton.dispatchEvent(new Event('change'));
+        }
+    </script>
+    <button onclick="triggerTranslation()">Traducir</button>
+
+</body>
+
+</html>
